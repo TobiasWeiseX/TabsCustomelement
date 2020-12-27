@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+    <title>My Custom Element</title>
+    <meta charset="utf-8">
+    <script src="tabs.js"></script>
+</head>
+<body>
+
+    <j-tabs height="200px">
+        <j-tab title="A" selected>
+            <textarea style="height: 100%;">
+                text a
+            </textarea>
+        </j-tab>
+        <j-tab title="B">
+            <textarea style="height: 100%;">
+                text b
+            </textarea>
+        </j-tab>
+        <j-tab title="C">
+            <textarea style="height: 100%;">
+                text c
+            </textarea>
+        </j-tab>
+        <j-tab title="D">
+            <j-tabs>
+                <j-tab title="A" selected>
+                    <textarea style="height: 100%;">
+                        text c
+                    </textarea>
+                </j-tab>
+                <j-tab title="B">
+                    <textarea style="height: 100%;">
+                        text cxxxx
+                    </textarea>
+                </j-tab>
+            </j-tabs>
+        </j-tab>
+    </j-tabs>
+
+</body>
+</html>
